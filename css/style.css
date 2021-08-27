@@ -157,12 +157,13 @@ main {
 .mailcontainer .box {
 	width: 2rem;
 	height: 2rem;
+	border-radius: .5rem;
 	background-color: white;
 	margin-right: 1rem;
+	flex-shrink: 0;
 }
 .mailcontainer {
 	display: flex;
-	align-items: center;
 	padding: 2rem 3rem;
 }
 .mailcontainer a {
