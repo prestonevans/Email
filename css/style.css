@@ -145,6 +145,7 @@ main {
 	width: 30vw;
 	height: 60vh;
 	background-color: #c0e876b7;
+	box-shadow: 9px 17px 10px #0000007d;
 }
 .content {
 	width: 70vw;
@@ -168,6 +169,10 @@ main {
 	text-decoration: none;
 	color: #3bb0c7;
 	font-size: 1.5rem;
+	transition: .3s ease-in;
+}
+.mailcontainer a:hover {
+	color: lightgray;
 }
 body {
 	max-width: 896px;
@@ -178,4 +183,5 @@ header {
 	height: 40vh;
 	background-size: cover;
 	background-position: center;
+	/* box-shadow: 9px 17px 0px #0000007d; */
 }
