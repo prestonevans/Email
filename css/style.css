@@ -145,7 +145,7 @@ main {
 	width: 30vw;
 	height: 60vh;
 	background-color: #c0e876b7;
-	box-shadow: 9px 17px 10px #0000007d;
+	/* box-shadow: 9px 17px 10px #0000007d; */
 }
 .content {
 	width: 70vw;
